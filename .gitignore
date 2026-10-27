@@ -1,0 +1,36 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+gr/.venv/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model weights & checkpoints
+*.pt
+*.pth
+*.bin
+*.onnx
+checkpoints/
+.cache/
+
+# Local environment & secret files
+.env
+.env.local
+*.secret
+*.pem
+*.key
+
+# Temporary outputs & IDE settings
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
